@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    /* margin: -20px 0 50px; */
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+} */
+
+span {
+    font-size: 12px;
+}
+
+button {
+    background-color: #48989b;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    margin: 15px 0px;
+    width: 70%;
+}
+
+a {
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+form {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+input {
+    color: #000000;
+    font-size: 10px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(214, 213, 221);
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.main-container {
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    min-height: 500px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.sign-up-form {
+    left: 0;
+    width: 50%;
+    z-index: 1;
+}
+
+.sign-in-form {
+    right: 0;
+    width: 50%;
+    z-index: 1;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-panel {
+    background-color: #79c9cc;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    z-index: 50;
+}
+
+#overlay-right {
+    right: 0;
+    z-index: 0;
+}
+
+#overlay-left {
+    left: 0
+}
+
+.social-media-container {
+    margin: 25px 0px;
+}
+
+.social-media-container a {
+    align-items: center;
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0px 10px;
+    width: 40px;
+}
+
+.active-overlay-panel {
+
+}
+ 
